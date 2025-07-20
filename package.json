@@ -1,0 +1,49 @@
+{
+  "name": "unit-convert",
+  "version": "1.0.0",
+  "description": "A comprehensive TypeScript unit conversion library supporting length, weight, temperature, area, volume, time, speed, data, power, energy, and fuel economy conversions.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "bun run build",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "unit-conversion",
+    "converter",
+    "typescript",
+    "length",
+    "weight",
+    "temperature",
+    "area",
+    "volume",
+    "time",
+    "speed",
+    "data",
+    "power",
+    "energy",
+    "fuel",
+    "measurement",
+    "units"
+  ],
+  "author": "aj",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adwaithjayan/unit-convert.git"
+  },
+  "homepage": "https://github.com/adwaithjayan/unit-convert#readme",
+  "devDependencies": {
+    "@types/node": "^20.6.3",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
