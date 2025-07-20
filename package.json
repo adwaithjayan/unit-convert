@@ -1,5 +1,5 @@
 {
-  "name": "unit-convert",
+  "name": "unit-convert-pro",
   "version": "1.0.0",
   "description": "A comprehensive TypeScript unit conversion library supporting length, weight, temperature, area, volume, time, speed, data, power, energy, and fuel economy conversions.",
   "main": "dist/index.js",

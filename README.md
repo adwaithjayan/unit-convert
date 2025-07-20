@@ -1,4 +1,4 @@
-# Unit Convert 🔄
+# Unit Convert Pro 🔄
 
 A comprehensive TypeScript unit conversion library supporting **11+ measurement categories** including length, weight, temperature, area, volume, time, speed, data storage, power, energy, and fuel economy conversions. Built with type safety and developer experience in mind.
 
@@ -17,19 +17,19 @@ A comprehensive TypeScript unit conversion library supporting **11+ measurement 
 
 ```bash
 # Using npm
-npm install unit-convert
+npm install unit-convert-pro
 
 # Using yarn
-yarn add unit-convert
+yarn add unit-convert-pro
 
 # Using pnpm
-pnpm add unit-convert
+pnpm add unit-convert-pro
 ```
 
 ## 🔥 Quick Start
 
 ```typescript
-import { convert } from "unit-convert";
+import { convert } from "unit-convert-pro";
 
 // Convert distance
 const miles = convert(100, "length", "km", "mi"); // 62.137 miles
@@ -49,7 +49,7 @@ const pounds = convert(75, "mass", "kg", "lb"); // 165.35 pounds
 ### 📏 Length Conversions
 
 ```typescript
-import { convert } from "unit-convert";
+import { convert } from "unit-convert-pro";
 
 // Metric to Imperial
 const feet = convert(1000, "length", "m", "ft"); // 3280.84 feet
@@ -424,7 +424,7 @@ if (result !== null) {
 
 ```jsx
 import React, { useState } from "react";
-import { convert } from "unit-convert";
+import { convert } from "unit-convert-pro";
 
 function DistanceConverter() {
   const [kilometers, setKilometers] = useState(0);
@@ -458,7 +458,7 @@ function DistanceConverter() {
 </template>
 
 <script>
-import { convert } from "unit-convert";
+import { convert } from "unit-convert-pro";
 
 export default {
   data() {
@@ -476,7 +476,7 @@ export default {
 ### Node.js Example
 
 ```javascript
-const { convert } = require("unit-convert");
+const { convert } = require("unit-convert-pro");
 
 // Convert file sizes
 const fileSizeInMB = 1500; // MB
@@ -528,7 +528,7 @@ const formatted = result.toFixed(2); // String with 2 decimal places
 Full TypeScript support with intelligent IntelliSense:
 
 ```typescript
-import { convert, UnitCategory } from "unit-convert";
+import { convert, UnitCategory } from "unit-convert-pro";
 
 // Type-safe category selection
 const category: UnitCategory = "length"; // Auto-completion available
@@ -588,7 +588,7 @@ We welcome contributions! Here's how you can help:
 git clone https://github.com/adwaithjayan/unit-convert.git
 
 # Install dependencies
-cd unit-convert
+cd unit-convert-pro
 npm install
 
 # Build the project
